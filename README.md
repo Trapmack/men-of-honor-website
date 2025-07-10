@@ -51,6 +51,44 @@ Active engagement in local community projects and volunteer opportunities.
 - **Fonts**: Inter & Merriweather from Google Fonts
 - **Icons**: Unicode emoji icons for simplicity
 
+## Deployment
+
+### 🚀 Quick Deployment Options
+
+#### Option 1: Netlify (Recommended)
+1. **Drag & Drop**: Build with `npm run build`, then drag `dist` folder to [Netlify](https://www.netlify.com/)
+2. **Git Integration**: Push to GitHub, connect to Netlify for auto-deployment
+3. **CLI**: `npm install -g netlify-cli && netlify deploy --prod --dir=dist`
+
+#### Option 2: Vercel
+1. Push to GitHub
+2. Import project at [Vercel](https://vercel.com/)
+3. Auto-deploy on every push
+
+#### Option 3: GitHub Pages
+1. Push to GitHub repository
+2. Enable GitHub Pages in repository settings
+3. Use included GitHub Actions workflow
+
+#### Option 4: Surge.sh
+```bash
+npm install -g surge
+npm run build
+surge dist
+```
+
+### 🔧 Deployment Scripts
+- **`./deploy.sh`**: Interactive deployment script
+- **`./start-server.sh`**: Local server for testing
+- **GitHub Actions**: Automated deployment workflow
+
+### 🌐 Live Website
+Once deployed, your website will be accessible at:
+- **Netlify**: `https://your-site-name.netlify.app`
+- **Vercel**: `https://your-site-name.vercel.app`
+- **GitHub Pages**: `https://username.github.io/men-of-honor-website`
+- **Surge.sh**: `https://your-chosen-domain.surge.sh`
+
 ## Getting Started
 
 ### Prerequisites
